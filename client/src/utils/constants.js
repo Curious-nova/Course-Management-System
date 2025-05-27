@@ -1,5 +1,6 @@
 // export const HOST = import.meta.env.VITE_SERVER_URL;
-export const HOST = 'http://localhost:3000';
+// export const HOST = 'http://localhost:3000';
+export const HOST = 'https://course-management-system-9lf4.onrender.com'
 // export const HOST = 'http://172.20.10.4:3000'; // use your ip address here
 
 // student

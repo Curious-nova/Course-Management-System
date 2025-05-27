@@ -21,9 +21,10 @@ import Exam from './model/ExamDetailsModel.js';
 dotenv.config();
 
 const app = express();
+const allowedOrigin = process.env.ORIGIN || 'http://localhost:3000';
 
 app.use(cors({
-    origin: [process.env.ORIGIN],
+    origin: allowedOrigin,
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
     credentials: true
 }));
